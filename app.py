@@ -11,6 +11,9 @@ from flask import Flask, request, jsonify, render_template
 import base64
 import io
 
+# i did these changes
+
+
 app = Flask(__name__)
 model = pickle.load(open('model.pkl', 'rb'))
 survmodel = pickle.load(open('survivemodel.pkl', 'rb'))
